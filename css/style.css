@@ -9,18 +9,19 @@ bottoni arancioni:#fe775a;
 blu footer: #32495b;
 azzurro lente ''cerca'': #00a4bd;
 bianco di sfondo: #f4f9fd;
+rosino imm jumbotron: #fff4ef;
  */
 
- /* vertical al */
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* <!-- intestazione --> */
+/* <!-- intestazione --> -----------------------------------*/
 .navtop{
   background-color: #f4f9fd;
   line-height: 70px;
+  border-bottom: 1px solid #33475b;
 }
 
 .contain{
@@ -31,6 +32,8 @@ body{
 .menuleft{
   float: left;
 }
+
+
 .menuright{
   float: right;
 }
@@ -70,7 +73,7 @@ nav ul li{
   color:#00a4bd;
 }
 
- button {
+button {
   border: none;
   border-radius: 4px;
   padding: 8px;
@@ -87,13 +90,74 @@ nav ul li{
 
 .login a{
   text-decoration: none;
-  color: red;
+  color: #fe775a;
 }
 
 .gethub{
   background-color: #fe775a;
+  color: white;
 }
 
-/* <!-- corpo del sito --> */
+.gethub a{
+  background-color: #fe775a;
+  text-decoration: none;
+  color: white;
+}
 
+/* navigazione bootton -------------------------------*/
+
+.navbottom{
+  width: 70%;
+  margin: 0 auto;
+  line-height: 70px;
+  padding: 20px;
+}
+
+.navbottomright{
+  float: right;
+}
+
+.navbottomright a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+#logo{
+  float: left;
+}
+
+/* <!-- corpo del sito -->---------------------------------- */
+
+
+.jumbotron{
+  width: 70%;
+  margin: 0 auto;
+  line-height: 70px;
+}
+
+.containjumbotron {
+  background-color: #fff4ef;
+  background-image: url("../img/jumbotron.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100vw;
+  height: 40vh;
+}
+
+.textjumbotron{
+  float: left;
+  width: 50%;
+}
+
+.textjumbotron h1{
+  font-size: 60px;
+  margin-top: 2%;
+}
+
+.textjumbotron p{
+  font-size: 15px;
+  font-variant-ligatures: normal;
+
+}
 /* <!-- piè di pagina --> */
