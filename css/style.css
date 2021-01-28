@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colori
+font blu:#33475b;
+bottoni arancioni:#fe775a;
+blu footer: #32495b;
+azzurro lente ''cerca'': #00a4bd;
+bianco di sfondo: #f4f9fd;
+ */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* <!-- intestazione --> */
+header{
+  width: 70%;
+  height: 10vh;
+  background-color: red;
+  position: relative;
+  margin: 0 auto;
+}
+
+.lingua{
+  position: absolute;
+  left: 0;
+  bottom: 40%;
+}
+
+.ricerca{
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+  float: left;
+}
+
+nav ul li{
+  display: inline-block;
+  font-size: 13px;
+  float: left;
+  margin: 0 1em;
+}
+
+.fas fa-search{
+
+}
+
+button{
+  background-color: #fe775a;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+/* <!-- corpo del sito --> */
+
+/* <!-- piè di pagina --> */
