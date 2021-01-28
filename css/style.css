@@ -11,17 +11,34 @@ azzurro lente ''cerca'': #00a4bd;
 bianco di sfondo: #f4f9fd;
  */
 
+ /* vertical al */
+
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f9fd;
 }
+
 /* <!-- intestazione --> */
-header{
+.navtop{
+  background-color: #f4f9fd;
+  line-height: 70px;
+}
+
+.contain{
   width: 70%;
-  height: 5vh;
-  /* background-color: red; */
-  position: relative;
   margin: 0 auto;
+}
+
+.menuleft{
+  float: left;
+}
+.menuright{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .lingua{
@@ -44,15 +61,38 @@ nav ul li{
   margin: 0 1em;
 }
 
-button{
-  background-color: #fe775a;
-  color: white;
+.contain .menuleft a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+.lente{
+  color:#00a4bd;
+}
+
+ button {
   border: none;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 8px;
 }
 
+.login{
+  background-color:#f4f9fd;
+  text-decoration: none;
+  color: #33475b;
+  border-radius: 4px;
+  border: 1px solid #fe775a;
+  border-color: #fe775a;
+}
 
+.login a{
+  text-decoration: none;
+  color: red;
+}
+
+.gethub{
+  background-color: #fe775a;
+}
 
 /* <!-- corpo del sito --> */
 
