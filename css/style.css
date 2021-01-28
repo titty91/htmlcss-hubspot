@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* colori
@@ -14,12 +13,13 @@ bianco di sfondo: #f4f9fd;
 
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #f4f9fd;
 }
 /* <!-- intestazione --> */
 header{
   width: 70%;
-  height: 10vh;
-  background-color: red;
+  height: 5vh;
+  /* background-color: red; */
   position: relative;
   margin: 0 auto;
 }
@@ -44,16 +44,15 @@ nav ul li{
   margin: 0 1em;
 }
 
-.fas fa-search{
-
-}
-
 button{
   background-color: #fe775a;
+  color: white;
   border: none;
   border-radius: 3px;
-  padding: 10px;
+  padding: 8px;
 }
+
+
 
 /* <!-- corpo del sito --> */
 
