@@ -126,7 +126,7 @@ button {
   float: left;
 }
 
-/* <!-- corpo del sito -->---------------------------------- */
+/* <!-- corpo del sito  1' parte -->---------------------------------- */
 
 
 .jumbotron{
@@ -145,11 +145,48 @@ button {
 }
 
 .textjumbotron{
+  width: 50%;
   float: left;
+  padding: 40px 0 40px;
+  line-height: 2;
+  color:#33475b;
 }
 
 .textjumbotron button{
+  margin: 10px 0 10px;
   padding: 20px;
+}
+
+  /* <!-- corpo del sito 2' parte----------> */
+
+.contenuto1 .contenuto2{
+  background-color: #f4f9fd;
+}
+
+.descizione{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  color:#33475b;
+  line-height: 2;
+  padding: 40px 0 40px;
+}
+
+.descizione img{
+  width: 20%;
+  height: auto;
+}
+/* <!-- corpo del sito 3' parte-----------> */
+
+.box{
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow:  10px  10px 5px #dedede,
+              -10px -10px 5px #dedede,
+               10px -10px 5px #dedede,
+              -10px  10px 5px #dedede;
 }
 
 /* <!-- piè di pagina --> */
