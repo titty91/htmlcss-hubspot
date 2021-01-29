@@ -109,7 +109,7 @@ button {
 .navbottom{
   width: 70%;
   margin: 0 auto;
-  line-height: 70px;
+  line-height: 30px;
   padding: 20px;
 }
 
@@ -140,24 +140,16 @@ button {
   background-image: url("../img/jumbotron.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right bottom;
   width: 100vw;
-  height: 40vh;
 }
 
 .textjumbotron{
   float: left;
-  width: 50%;
 }
 
-.textjumbotron h1{
-  font-size: 60px;
-  margin-top: 2%;
+.textjumbotron button{
+  padding: 20px;
 }
 
-.textjumbotron p{
-  font-size: 15px;
-  font-variant-ligatures: normal;
-
-}
 /* <!-- piè di pagina --> */
