@@ -235,6 +235,9 @@ ul li .orange{
   width: 5px;
 }
 
+/* <!-- corpo del sito 4' parte---------------------> */
 
-
+.colonne{
+  display: flex;
+}
 /* <!-- piè di pagina --> */
