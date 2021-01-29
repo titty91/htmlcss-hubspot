@@ -159,7 +159,7 @@ button {
 
   /* <!-- corpo del sito 2' parte----------> */
 
-.contenuto1 .contenuto2{
+.contenuto1{
   background-color: #f4f9fd;
 }
 
@@ -178,15 +178,63 @@ button {
 }
 /* <!-- corpo del sito 3' parte-----------> */
 
+.contenuto2{
+  background-color: #f4f9fd;
+}
 .box{
   width: 70%;
   margin: 0 auto;
   background-color: white;
-  border-radius: 3px;
-  box-shadow:  10px  10px 5px #dedede,
-              -10px -10px 5px #dedede,
-               10px -10px 5px #dedede,
-              -10px  10px 5px #dedede;
+  border-radius: 5px;
+  box-shadow: 2px  2px 2px #dedede,
+              -2px -2px 2px #dedede,
+               2px -2px 2px #dedede,
+              -2px  2px 2px #dedede;
 }
+
+.boxleft{
+  width: 30%;
+  text-align: center;
+  float: left;
+}
+
+.boxleft img{
+  width: 40%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.boxleft button{
+  height: auto;
+  padding: 15px 30px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.boxright{
+  width: 65%;
+  padding: 40px 0 40px;
+  text-align: left;
+  float: right;
+  color:#33475b;
+  line-height: 2;
+}
+
+.boxright ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li .orange{
+  color: #fe775a;
+}
+
+.boxright h3 span{
+  border-top: 1px solid #33475b;
+  width: 5px;
+}
+
+
 
 /* <!-- piè di pagina --> */
