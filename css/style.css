@@ -180,7 +180,9 @@ button {
 
 .contenuto2{
   background-color: #f4f9fd;
+  padding-bottom: 10px;
 }
+
 .box{
   width: 70%;
   margin: 0 auto;
@@ -209,7 +211,6 @@ button {
   padding: 15px 30px 15px;
   margin-top: 10px;
   margin-bottom: 20px;
-
 }
 
 .boxright{
@@ -219,6 +220,7 @@ button {
   float: right;
   color:#33475b;
   line-height: 2;
+  margin-right: 3%;
 }
 
 .boxright ul li{
@@ -235,12 +237,22 @@ ul li .orange{
   width: 5px;
 }
 
-/* <!-- corpo del sito 4' parte---------------------> */
+.contenuto2 span hr{
+  width: 40%;
+  height: auto;
+  border-top: 1px solid lightgrey;
+  float: right;
+  margin-right: 20%;
+  margin-top: 3%;
 
+}
+
+/* <!-- corpo del sito 4' parte---------------------> */
 
 .contenuto3{
   background-color: #f4f9fd;
   padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .contan{
@@ -272,6 +284,20 @@ ul li .orange{
   margin: 10px 10%;
 }
 
+.contenuto3 button{
+  height: auto;
+  padding: 15px 30px 15px;
+  margin-top: 10px;
+  margin-bottom: 10%;
+}
+
+.contenuto3 span hr{
+  width: 20%;
+  height: auto;
+  border-top: 1px solid lightgrey;
+  text-align: center;
+  margin: 0 40%;
+}
 
 /*  colonno sinistra */
 
@@ -297,7 +323,6 @@ ul li .orange{
 
 .cllright{
   float: right;
-
 }
 
 .cllright img{
@@ -306,5 +331,23 @@ ul li .orange{
   margin-top: 30px;
 }
 
+/* <!-- corpo del sito 5' parte-------------------------> */
+#headband {
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  color: white;
+  padding-top: 3%;
 
+}
+
+.headbandescrition{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.headbandescrition p{
+  padding-top: 2%;
+  line-height: 1.5;
+  padding-bottom: 2%;
+}
 /* <!-- piè di pagina --> */
