@@ -141,7 +141,7 @@ button {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right bottom;
-  width: 100vw;
+  width: 100%;
 }
 
 .textjumbotron{
@@ -336,6 +336,7 @@ ul li .orange{
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   color: white;
   padding-top: 3%;
+  padding-bottom: 3%;
 
 }
 
@@ -345,9 +346,69 @@ ul li .orange{
   margin: 0 auto;
 }
 
-.headbandescrition p{
+/* .headbandescrition p{
   padding-top: 2%;
   line-height: 1.5;
   padding-bottom: 2%;
+} */
+
+
+.headbandtable{
+  margin: 5% 0;
+}
+
+.cella{
+  width: calc(100% / 4 - 0%);
+  height: auto;
+  float: left;
+  padding: 2% 0;
+  box-sizing: border-box;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.headbandtable :nth-child(4){
+  border-right: none;
+}
+.headbandtable :nth-child(8){
+  border-right: none;
+}
+.headbandtable :nth-child(5){
+  border-bottom: none;
+}
+.headbandtable :nth-child(6){
+  border-bottom: none;
+}
+.headbandtable :nth-child(7){
+  border-bottom: none;
+}
+.headbandtable :nth-child(8){
+  border-bottom: none;
+}
+
+.cella img{
+  height: 30px;
+  margin-bottom: 5%;
+}
+
+.cella span{
+  display:block;
+}
+
+.voce{
+  font-size: 40px;
+}
+.cella span:last-child{
+  font-size: 12px;
+}
+
+/* <!-- corpo del sito 6' parte------------------> */
+.contenuto4{
+  background-color: #f4f9fd;
+}
+
+.boxx{
+  width: 70%;
+  margin: 0 auto;
 }
 /* <!-- piè di pagina --> */
