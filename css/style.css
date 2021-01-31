@@ -337,7 +337,6 @@ ul li .orange{
   color: white;
   padding-top: 3%;
   padding-bottom: 3%;
-
 }
 
 .headbandescrition{
@@ -345,13 +344,6 @@ ul li .orange{
   text-align: center;
   margin: 0 auto;
 }
-
-/* .headbandescrition p{
-  padding-top: 2%;
-  line-height: 1.5;
-  padding-bottom: 2%;
-} */
-
 
 .headbandtable{
   margin: 5% 0;
@@ -403,6 +395,7 @@ ul li .orange{
 }
 
 /* <!-- corpo del sito 6' parte------------------> */
+
 .contenuto4{
   background-color: #f4f9fd;
 }
@@ -419,7 +412,6 @@ ul li .orange{
   color: #33475b;
 }
 
-
 .logallery{
   width: 60%;
   float: right;
@@ -431,7 +423,6 @@ ul li .orange{
   height: auto;
   float: left;
 }
-
 
 .cellogo img{
   width: 100px;
@@ -461,3 +452,70 @@ ul li .orange{
   float: right;
 }
 /* <!-- piè di pagina --> */
+
+#elencofooter{
+  background-color: #32495b;
+}
+
+.info{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.info:last-child{
+  margin-right: 0;
+}
+
+.lista{
+  margin: 20px 8% 20px 0;
+  float: left;
+}
+
+.lista ul li a{
+  text-decoration: none;
+  color: white;
+  line-height: 2;
+}
+
+.lista ul li{
+  list-style-type: none;
+}
+
+.lista ul li a:hover{
+  color: #00a4bd;
+  text-decoration: underline;
+}
+
+.lista ul li:first-child{
+  font-weight: bold;
+  line-height: 4;
+}
+
+#bottone a{
+  color: #32495b;
+}
+
+#bottone a:hover{
+  text-decoration: none;
+  color:#00a4bd;
+  line-height: 2;
+}
+
+.social{
+  list-style-type: none;
+  text-align: left;
+}
+
+.social a:hover{
+  list-style-type: none;
+  text-align: left;
+}
+
+.social ol li{
+  float: left;
+  margin-right: 25px;
+}
+
+.social ol li:first-child{
+  line-height: 0;
+}
