@@ -447,4 +447,17 @@ ul li .orange{
   line-height: 1.6;
   padding-top: 5%;
 }
+
+.sideleft{
+  float: left;
+  text-align: left;
+}
+
+.bttleft{
+  margin: 30px 0;
+}
+
+.sideright img{
+  float: right;
+}
 /* <!-- piè di pagina --> */
