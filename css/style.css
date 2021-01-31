@@ -491,6 +491,10 @@ ul li .orange{
   line-height: 4;
 }
 
+#bottone{
+  line-height: 5;
+}
+
 #bottone a{
   color: #32495b;
 }
@@ -518,4 +522,39 @@ ul li .orange{
 
 .social ol li:first-child{
   line-height: 0;
+}
+
+.lingue{
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.lingue ul{
+  margin: 0 30%;
+}
+
+.lingue ul li{
+  list-style-type: none;
+  float: left;
+  margin-right: 5%;
+}
+.lingue ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.lingue ul li:hover{
+  text-decoration: none;
+  color:#00a4bd;
+}
+
+#elencofooter hr{
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.fondopagina{
+
 }
