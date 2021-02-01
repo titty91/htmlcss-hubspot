@@ -18,6 +18,13 @@ body {
 }
 
 /* <!-- intestazione --> -----------------------------------*/
+header {
+  position:fixed;
+  top: 0em;
+  width:100%;
+  background-color: white;
+}
+
 .navtop{
   background-color: #f4f9fd;
   line-height: 70px;
@@ -106,6 +113,9 @@ button {
 
 /* navigazione bootton -------------------------------*/
 
+main{
+  margin-top: 140px;
+}
 .navbottom{
   width: 70%;
   margin: 0 auto;
