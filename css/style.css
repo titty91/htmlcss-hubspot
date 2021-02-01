@@ -141,8 +141,6 @@ main{
 }
 
 .navbottomright a{
-  display: block;
-  width: auto;
   text-decoration: none;
   color: #33475b;
 }
@@ -484,6 +482,65 @@ ul li .orange{
   width: auto;
 }
 /* <!-- piè di pagina --> */
+
+#modal{
+  position: fixed;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  right: 30px;
+  bottom: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.modaltitle{
+  background-color: #32495b;
+  border-radius: 5px 5px 0 0;
+}
+
+.modaltitle img{
+  height: 40px;
+  padding: 3%;
+}
+
+.modaltitle span{
+  color: white;
+  vertical-align:super;
+}
+
+.nuvola{
+  background-color: lightblue;
+  width: 80%;
+  height: 20%;
+  border-radius: 8px 8px 8px 0;
+  margin: 10px 10px;
+  padding: 10px;
+}
+.piccola{
+  width: 80%;
+  height: 10%;
+}
+
+.nuvolautente{
+  background-color: lightgrey;
+  width: 80%;
+  height: 10%;
+  border-radius: 8px 8px 0 8px;
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+.nuvolautente p{
+  color: #778899;
+}
+
+.azienda{
+  text-align: center;
+  color: #00bfff;
+  font-size: 10px;
+  padding-top: 10px;
+}
 
 #elencofooter{
   background-color: #32495b;
