@@ -544,7 +544,7 @@ ul li .orange{
   text-decoration: none;
 }
 
-.lingue ul li:hover{
+.lingue ul li a:hover{
   text-decoration: none;
   color:#00a4bd;
 }
@@ -556,5 +556,32 @@ ul li .orange{
 }
 
 .fondopagina{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
+.copyright{
+  float: left;
+}
+
+.service{
+  float: right;
+}
+
+.voci ul li{
+  list-style-type: none;
+  float: left;
+  margin-left: 10px;
+}
+
+.voci ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.voci ul li a:hover{
+  text-decoration: none;
+  color: #00a4bd;
 }
