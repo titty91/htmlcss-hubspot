@@ -41,9 +41,13 @@ header {
   float: left;
 }
 
-
 .menuright{
   float: right;
+}
+
+.menuright a{
+  display: block;
+  width: auto;
 }
 
 .clearfix::after{
@@ -73,15 +77,22 @@ nav ul li{
 }
 
 .contain .menuleft a{
+  display: block;
+  width: auto;
   text-decoration: none;
   color: #33475b;
+}
+.contain .menuleft a:hover{
+  color:#00a4bd;
+  text-decoration: underline;
 }
 
 .lente{
   color:#00a4bd;
 }
 
-button {
+
+button{
   border: none;
   border-radius: 4px;
   padding: 8px;
@@ -112,6 +123,7 @@ button {
   color: white;
 }
 
+
 /* navigazione bootton -------------------------------*/
 
 main{
@@ -129,8 +141,15 @@ main{
 }
 
 .navbottomright a{
+  display: block;
+  width: auto;
   text-decoration: none;
   color: #33475b;
+}
+
+.navbottomright a:hover{
+  color:#00a4bd;
+  text-decoration: underline;
 }
 
 #logo{
