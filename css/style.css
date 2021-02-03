@@ -92,33 +92,36 @@ nav ul li{
 }
 
 
-button{
-  border: none;
-  border-radius: 4px;
-  padding: 8px;
-}
-
 .login{
-  background-color:#f4f9fd;
   text-decoration: none;
   color: #33475b;
-  border-radius: 4px;
   border: 1px solid #fe775a;
-  border-color: #fe775a;
+  border-radius: 4px;
+  background-color:#f4f9fd;
+  height: 30px;
+  width: 40px;
+  margin-top: 18px;
 }
 
 .login a{
   text-decoration: none;
   color: #fe775a;
+  line-height: 30px;
+  text-align: center;
 }
 
 .gethub{
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  border-radius: 4px;
+  padding: 1px 4px;
   background-color: #fe775a;
   color: white;
+  margin-top: 18px;
 }
 
 .gethub a{
-  background-color: #fe775a;
   text-decoration: none;
   color: white;
 }
@@ -180,9 +183,22 @@ main{
   color:#33475b;
 }
 
-.textjumbotron button{
+.buttonjumbotron{
+  height: 30px;
+  width: 125px;
+  line-height: 30px;
+  border: none;
+  border-radius: 4px;
+  padding: 1px 4px;
+  background-color: #fe775a;
+  color: white;
   margin: 30px 0 30px;
-  padding: 20px;
+  padding: 15px;
+}
+
+.buttonjumbotron a{
+  text-decoration: none;
+  color: white;
 }
 
   /* <!-- corpo del sito 2' parte----------> */
@@ -234,11 +250,22 @@ main{
   margin-top: 30px;
 }
 
-.boxleft button{
-  height: auto;
-  padding: 15px 30px 15px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+.buttonmain{
+  height: 30px;
+  width: 100px;
+  line-height: 30px;
+  border: none;
+  border-radius: 4px;
+  padding: 1px 4px;
+  background-color: #fe775a;
+  color: white;
+  padding: 15px;
+  margin: 20px auto;
+}
+
+.buttonmain a{
+  text-decoration: none;
+  color: white;
 }
 
 .boxright{
@@ -578,10 +605,15 @@ ul li .orange{
 .lista ul li:first-child{
   font-weight: bold;
   line-height: 4;
+  color: white;
 }
 
 #bottone{
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 15px;
   line-height: 5;
+  font-size: 12px;
 }
 
 #bottone a{
