@@ -487,12 +487,14 @@ ul li .orange{
   width: calc(100% / 4 - 0%);
   height: auto;
   float: left;
+  align-items: center;
 }
 
 .cellogo img{
   width: 100px;
   height: auto;
-  padding: 0 25%;
+  padding: 10px;
+  text-align: center;
 }
 
 .sponsor span:first-child{
